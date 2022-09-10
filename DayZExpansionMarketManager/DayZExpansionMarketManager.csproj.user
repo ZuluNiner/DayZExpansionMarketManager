@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="ExtraForms\CategoryManagerAttachments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ExtraForms\CategoryManagerVariants.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Managers\CategoryManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Managers\MapManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Managers\SafezoneManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Managers\SettingsManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Managers\TraderManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Managers\TraderZoneManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,170 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "ObjectListView/2.7.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/ListViewPrinter.dll": {},
+          "lib/ObjectListView.dll": {},
+          "lib/SparkleLibrary.dll": {}
+        },
+        "runtime": {
+          "lib/ListViewPrinter.dll": {},
+          "lib/ObjectListView.dll": {},
+          "lib/SparkleLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "ObjectListView/2.7.1.5": {
+      "sha512": "IlDCdAmaWZbqFjeOxTJo+TT12ZA8qsS2Dw6dGAGw2b8HZvH2bWzFz33VUEe4f68PEI+oNubJ9jD+ElDew+gE+A==",
+      "type": "package",
+      "path": "objectlistview/2.7.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/ListViewPrinter.dll",
+        "lib/ObjectListView.dll",
+        "lib/SparkleLibrary.dll",
+        "objectlistview.2.7.1.5.nupkg.sha512",
+        "objectlistview.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "Newtonsoft.Json >= 13.0.1",
+      "ObjectListView >= 2.7.1.5"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\rottj\\.nuget\\packages\\": {},
+    "M:\\VisualStudio\\Components\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "M:\\VisualStudioProjects\\DayZExpansionMarketManager\\DayZExpansionMarketManager\\DayZExpansionMarketManager.csproj",
+      "projectName": "DayZExpansionMarketManager",
+      "projectPath": "M:\\VisualStudioProjects\\DayZExpansionMarketManager\\DayZExpansionMarketManager\\DayZExpansionMarketManager.csproj",
+      "packagesPath": "C:\\Users\\rottj\\.nuget\\packages\\",
+      "outputPath": "M:\\VisualStudioProjects\\DayZExpansionMarketManager\\DayZExpansionMarketManager\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "M:\\VisualStudio\\Components\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\rottj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          },
+          "ObjectListView": {
+            "target": "Package",
+            "version": "[2.7.1.5, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'ObjectListView 2.7.1.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "ObjectListView",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}

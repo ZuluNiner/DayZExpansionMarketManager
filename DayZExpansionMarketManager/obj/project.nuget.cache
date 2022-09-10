@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "jfCzq2mjiL6hp3D2DUkBFV1n9f/6w2RL1lyxRE8pxCe3YXXAJnldDsoi+WsUAbyP1+oYnV1ZTiLj/E1kjrwWYQ==",
+  "success": true,
+  "projectFilePath": "M:\\VisualStudioProjects\\DayZExpansionMarketManager\\DayZExpansionMarketManager\\DayZExpansionMarketManager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rottj\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\rottj\\.nuget\\packages\\objectlistview\\2.7.1.5\\objectlistview.2.7.1.5.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'ObjectListView 2.7.1.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "ObjectListView",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
